@@ -66,8 +66,8 @@
    <?php
        if($url == 'contato'){
    ?>
-  <script src='http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHKBUoT_qH4'></script>
-  <script src="<?php echo INCLUDE_PATH; ?>map.js"></script>
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHKBUoT_qH4'></script>
+  <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
    <?php }?>
 </body>
 </html>
