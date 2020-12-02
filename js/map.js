@@ -6,7 +6,7 @@ $(function(){
 
 	  var mapProp = {
 	    center:new google.maps.LatLng(-19.9192,-43.9387),
-	    zoom:10,
+	    zoom:16,
 	   	scrollwheel: false,
 	     styles: [{
 	    stylers: [{

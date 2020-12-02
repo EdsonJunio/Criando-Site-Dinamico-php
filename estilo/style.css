@@ -8,7 +8,8 @@
 /** Boot CSS**/
 
 html,body{
-	overflow-x: hidden;
+	
+	height: 100%;
 }
 
 input{
@@ -250,22 +251,21 @@ section.banner-principal{
 
         }
 
-
-       footer p{
-       	  color: black;
-       	  text-align:center;
-       	  font-weight: 300;
-       	  font-size: 16px;
-
-        }
+        
         
 		 footer.fixed{
 			 position: fixed;
 			 bottom: 0;
 			 width: 100%;
 		 }
+
+		 footer p{
+			color: black;
+			text-align:center;
+			font-weight: 300;
+			font-size: 16px;
 		
-         
+		 }
 
 		section.erro_404 h2{
 			text-align: center;
@@ -301,11 +301,47 @@ section.banner-principal{
 		}
 
 
-        #map{
+             #map{
 			  width: 100%;
 			  height: 400px;
+		     }
+
+
+		  .contato-container{
+			  padding: 40px 0;
+			  text-align: center;
 		  }
 
+		  .contato-container input[type=text]{
+			  margin: 8px 0 ;
+			  width: 100%;
+			  height: 40px;
+			  border:1px solid #ccc;
+			  padding-left: 8px;
+			  font-size: 16px;
+			  max-width: 800px;
+			  color: #444;
+		  }
+		  
+		  .contato-container textarea{
+			padding:8px ;
+			margin: 8px 0;
+			width: 100%;
+			height: 120px;
+			border:1px solid #ccc;
+			padding-left: 8px;
+			font-size: 16px;
+			max-width: 600px;
+			resize: vertical;
+			color: #444; 
+		  }
+
+		  .contato-container input[type=submit]{
+			  background: #00C59E;
+			  width: 120px;
+			  height:40px ;
+			  color: white;
+			  cursor: pointer;}
 
 
       @media  screen and (max-width: 768px){
