@@ -1,4 +1,7 @@
-<section class="banner-principal">
+<section class="banner-container">
+<div style="background-image: url('<?php echo INCLUDE_PATH?>imagens/ibg-form.jpg');"class="banner-single"></div><!--banner-single-->
+<div style="background-image: url('<?php echo INCLUDE_PATH?>imagens/tecnologia.jpg');"class="banner-single"></div><!--banner-single-->
+<div style="background-image: url('<?php echo INCLUDE_PATH?>imagens/action.jpeg');"class="banner-single"></div><!--banner-single-->
       <div class="overlay"></div>
       <div class="center">
         <form>
@@ -6,8 +9,11 @@
           <input type="email" name="email" required= />
           <input type="submit" name="acao" value="Cadastrar!">
         </form>
-      </div><!--center-->
-    </section><!--banner-principal-->
+         </div><!--center-->
+        <div class="bullets">
+          <span class="active-slider"></span><span></span><span></sapn>
+        </div><!--bullets-->
+    </section><!--banner-container-->
 
 
     <section class="descricao-autor">
