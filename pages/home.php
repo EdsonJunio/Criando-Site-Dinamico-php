@@ -11,7 +11,6 @@
         </form>
          </div><!--center-->
         <div class="bullets">
-          <span class="active-slider"></span><span></span><span></sapn>
         </div><!--bullets-->
     </section><!--banner-container-->
 

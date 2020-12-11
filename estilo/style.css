@@ -360,6 +360,39 @@ section.banner-container{
 			  cursor: pointer;}
 
 
+
+			  .bullets{
+				  position: absolute;
+				  bottom: 10px;
+				  transform: translatex(-50%);
+				  left: 50%;
+				  z-index:5 ;
+			     }
+			
+	      .bullets span{
+			  margin: 0 10px;
+			  display:inline-block;
+			  width: 16px;
+			  height: 16px;
+			  border-radius: 50%;
+			  cursor: pointer;
+			  background-color: #444;
+			 
+		  }	
+		  
+		  
+		  
+		  
+		  .bullets span.active-slider{
+			  background:white;
+		  }
+
+
+
+
+
+
+
       @media  screen and (max-width: 768px){
       	img{
       		float:none !important;
