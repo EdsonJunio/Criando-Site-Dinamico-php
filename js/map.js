@@ -1,6 +1,5 @@
-$(function(){
 
-	var map;
+var map;
 	
 	function initialize() {
 
@@ -73,9 +72,11 @@ $(function(){
 	    		infoWindow.open(map, marker);
 	    	}
 	}
+	$(function(){
 
-	  initialize();
+	
 
-	  addMarker(-19.9192,-43.9387,'',"Minha casa",undefined,false,);
-
-})
+		initialize();
+		addMarker(-19.9192,-43.9387,'',"Minha casa",undefined,false,);
+  
+  })

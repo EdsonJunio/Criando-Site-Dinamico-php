@@ -24,4 +24,17 @@ $(function(){
     var divScroll = $(elemento).offset().top;
     $('html,body').animate({'scrollTop':divScroll},2000);
   }
+   carregarDinamico();
+  function carregarDinamico(){
+    $('[realtime]').click(function(){
+      var pagina = $(this).attr('realtime');
+      
+      $('.container-principal').load(INCLUDE_PATH+'pagina/'+pagina+'.php');
+      initialize();
+      addMarker(-19.9192,-43.9387,'',"Minha casa",undefined,false,);
+      
+      return false;
+    })
+
+  }
 })
