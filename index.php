@@ -9,6 +9,7 @@
   <meta  name="viewpor" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="palavras-chuve,do,meu,site">
   <meta name="description" content="Descrição do meu website">
+  <link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.png" type="image/x-icon"/>
   <meta charset="utf-8"/>
 </head>
 <body>
@@ -37,6 +38,7 @@
             <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
             <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
             <li><a  realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
+            <li><a  realtime="outro-menu" href="<?php echo INCLUDE_PATH; ?>outro-menu">Outro menu</a></li>
           </ul>
         </nav>
         <nav class="mobile right">
@@ -47,7 +49,8 @@
           <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
             <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
             <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
-            <li><a realtime  href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
+            <li><a realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
+            <li><a  realtime="outro-menu" href="<?php echo INCLUDE_PATH; ?>outro-menu">Outro menu</a></li>
           </ul>
         </nav>
         <div class="clear"></div>

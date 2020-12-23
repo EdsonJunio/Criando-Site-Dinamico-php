@@ -28,10 +28,14 @@ $(function(){
   function carregarDinamico(){
     $('[realtime]').click(function(){
       var pagina = $(this).attr('realtime');
-      
+      $('.container-principal').hide();
       $('.container-principal').load(INCLUDE_PATH+'pagina/'+pagina+'.php');
+      setTimeout(function(){
       initialize();
       addMarker(-19.9192,-43.9387,'',"Minha casa",undefined,false,);
+      },1000);
+
+      $('.container-principal').fadeIn(1000);
       
       return false;
     })
