@@ -27,6 +27,7 @@
 
         }
 ?>
+<?php new Email();?>
 
 
      <header>
@@ -38,7 +39,6 @@
             <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
             <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
             <li><a  realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
-            <li><a  realtime="outro-menu" href="<?php echo INCLUDE_PATH; ?>outro-menu">Outro menu</a></li>
           </ul>
         </nav>
         <nav class="mobile right">
@@ -50,7 +50,6 @@
             <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
             <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
             <li><a realtime="contato" href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
-            <li><a  realtime="outro-menu" href="<?php echo INCLUDE_PATH; ?>outro-menu">Outro menu</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
@@ -81,7 +80,7 @@
 
  
   <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
-  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHKBUoT_qH4'></script>
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
   <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
   <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 
@@ -93,7 +92,7 @@
    <?php
        if($url == 'contato'){
    ?>
-  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHKBUoT_qH4'></script>
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4'></script>
   <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
    <?php }?>
 </body>
